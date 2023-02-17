@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point, printing standard errot
+ * main - Entry point, print the standard error to the output
  *
  * Return: Always 1 (success)
  */
