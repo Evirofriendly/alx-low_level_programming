@@ -8,12 +8,11 @@
 
 int main(void)
 {
-	printf("Size of int Data Type in C = %2d bytes \n", Sizeof(short int));
-	printf("Size of Long int Data Typecin C = %2d bytes \n", Sizeof(long int));
-	printf("Size of Float Data Type in C = %2d bytes \n", Sizeof(float));
-	printf("Size of Double Data Type in C = %2d bytes \n", Sizeof(double));
-	printf("Size of Long Double Data Type in C = %2d \n", Sizeof(long double));
-	printf("Size of char Data Types in C = %2d \n", Sizeof(char));
+	printf("Size of an int: %1d byte(s)\n", Sizeof(int));
+	printf("Size of a long int: %1d byte(s)\n", Sizeof(long int));
+	printf("Size of a float: %1d byte(s)\n", Sizeof(float));
+	printf("Size of a double:  %1d byte(s)\n", Sizeof(double));
+	printf("Size of a char: %1d byte(s)\n", Sizeof(char));
 	return (0);
 }
 
