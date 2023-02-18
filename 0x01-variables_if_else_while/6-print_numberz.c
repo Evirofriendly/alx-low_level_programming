@@ -2,16 +2,16 @@
 #include <ctype.h>
 
 /**
- * main - Entry point for program
+ * main - Entry point of the program
  *
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
-	int y;
+	int x;
 
-	for (y = 0 ; y < 10 ; y++)
+	for (x = 0 ; x < 10 ; x++)
 		putchar((x % 10 + '0'));
 	putchar('\n');
 	return (0);
