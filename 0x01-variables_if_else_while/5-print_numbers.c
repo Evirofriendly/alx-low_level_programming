@@ -13,7 +13,7 @@ int main(void)
 
 	for (y = 0 ; y < 10 ; y++)
 	{
-		printf(" %d", y);
+		printf("0123456789\n");
 	}
 	return (0);
 }
