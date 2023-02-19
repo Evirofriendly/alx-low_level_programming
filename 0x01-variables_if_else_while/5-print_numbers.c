@@ -9,9 +9,6 @@
 
 int main(void)
 {
-	int y;
-
-	for (y = 0 ; y < 10 ; y++)
 	{
 		printf("0123456789\n");
 	}
