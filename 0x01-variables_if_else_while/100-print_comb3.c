@@ -22,7 +22,7 @@ int main(void)
 		for (y = x + 1 ; y <= 9 ; y++)
 		{
 			putchar((x % 10) + '0');
-			putchar((y & 10) + '0');
+			putchar((y % 10) + '0');
 
 			/* continue adding comma and space */
 
