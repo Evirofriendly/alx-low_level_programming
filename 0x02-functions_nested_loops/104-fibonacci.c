@@ -21,27 +21,22 @@ int main(void)
 		lib1 = lib2;
 		lib2 = libsum;
 	}
-
 	lib1_half1 = lib1 / 10000000000;
 	lib2_half1 = lib2 / 10000000000;
 	lib1_half2 = lib1 % 10000000000;
 	lib2_half2 = lib2 % 10000000000;
-
 	for (count = 93; count < 99; count++)
 	{
 		half1 = lib1_half1 + lib2_half1;
 		half2 = lib1_half2 + lib2_half2;
-
 		if (lib1_half2 + lib2_half2 > 9999999999)
 		{
 			half1 += 1;
 			half2 %= 10000000000;
 		}
-
 		printf("%lu%lu", half1, half2);
 		if (count != 98)
 			printf(", ");
-
 		lib1_half1 = lib2_half1;
 		lib1_half2 = lib2_half2;
 		lib2_half1 = half1;
