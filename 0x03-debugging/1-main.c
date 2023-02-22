@@ -5,18 +5,18 @@
 
 int main(void)
 {
-	int y;
+	int i;
 
 	printf("Infinite loop incoming :(\n");
 
 	/**
-	 * y = 0;
-	 *
-	 * while (y < 10)
-	 * {
-	 *	putchar(y);
-	 * }
-	 */
+	* i = 0;
+	*
+	* while (i < 10)
+	* {
+	*	putchar(i);
+	* }
+	*/
 
 	printf("Infinite loop avoided! \\o/\n");
 
