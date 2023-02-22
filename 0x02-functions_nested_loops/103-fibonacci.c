@@ -22,6 +22,6 @@ int main(void)
 		lib1 = lib2;
 		lib2 = libsum;
 	}
-	printf("%.of\n", total_sum);
+	printf("%.0f\n", total_sum);
 	return (0);
 }
