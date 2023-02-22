@@ -2,7 +2,6 @@
 
 /**
  * main - causes an infinite loop
- *
  * Return: 0
  */
 
@@ -11,8 +10,6 @@ int main(void)
 	int y;
 
 	printf("Infinite loop incoming :(\n");
-
-	y = 0;
 
 	/**
 	 * y = 0;
