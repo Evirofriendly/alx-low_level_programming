@@ -14,10 +14,14 @@ int main(void)
 
 	y = 0;
 
-	while (y < 10)
-	{
-		putchar(y);
-	}
+	/**
+	 * y = 0;
+	 *
+	 * while (y < 10)
+	 * {
+	 *	putchar(y);
+	 * }
+	 */
 
 	printf("Infinite loop avoided! \\o/\n");
 
