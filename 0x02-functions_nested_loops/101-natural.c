@@ -13,7 +13,7 @@ int main(void)
 	for (y = 0; y <= 1023; y++)
 	{
 		if ((y % 3) == 0 || (y % 5) == 0)
-			total = total + y
+			total = total + y;
 	}
 	printf("%d\n", total);
 
