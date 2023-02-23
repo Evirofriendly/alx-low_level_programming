@@ -6,10 +6,9 @@
 
 void print_most_numbers(void)
 {
-	int num;
+	int n;
 
-	for (num = 0; num <= 9; num++)
-		_putchar((i % 10) + '0');
-
+	for (n = 0; n <= 9; n++)
+		_putchar((n % 10) + '0');
 	_putchar('\n');
 }
