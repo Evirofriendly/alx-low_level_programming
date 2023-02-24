@@ -1,25 +1,26 @@
 #include "main.h"
 
 /**
- * print_triangle - print triangle with # character
- * @size: soze of triangle
+ * print_triangle - Prints a triangle,with character #.
+ * @size:  size of the triangle.
  */
-
-print_triangle(int size)
+void print_triangle(int size)
 {
-	int h, w;
+	int height, width;
 
 	if (size > 0)
 	{
-		for (h = 1; h <= size; h++)
+		for (height = 1; height <= size; height++)
 		{
-			for (w = size - h; w > 0; w--)
+			for (width = size - height; width > 0; width--)
 				_putchar(' ');
 
-			for (w = 0; w < h; w++)
+			for (width = 0; width < height; width++)
 				_putchar('#');
-			if (h == size)
+
+			if (height == size)
 				continue;
+
 			_putchar('\n');
 		}
 	}
