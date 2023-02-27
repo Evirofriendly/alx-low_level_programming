@@ -1,9 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * reset_to_98 - updating int to parameter and pointing to an address.
- * @*n: integer to point
+ * @n: integer to point
  *
  * Return: 0 if successefull
  */
