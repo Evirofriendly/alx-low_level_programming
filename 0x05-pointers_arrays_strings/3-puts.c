@@ -6,9 +6,8 @@
  */
 void _puts(char *str)
 {
-	while (*str != '\0')
-		_putcha
-			(*str++);/*counts each allocated character memory*/
+	while (*str)
+		_putchar(*str++);/*counts each allocated character memory*/
 
 	_putchar('\n');
 }
