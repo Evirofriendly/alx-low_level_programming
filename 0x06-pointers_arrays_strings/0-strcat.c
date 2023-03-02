@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  *_strcat - Concatenates(put together) the string pointed to by @src,
