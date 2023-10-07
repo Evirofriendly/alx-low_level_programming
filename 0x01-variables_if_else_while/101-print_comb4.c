@@ -3,7 +3,7 @@
 /**
  * main - combination of three digit
  *
- * Return Always 0 if Success
+ * Return: Always 0 if Success
  */
 
 int main(void)
