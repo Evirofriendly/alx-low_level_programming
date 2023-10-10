@@ -1,9 +1,10 @@
 #include "main.h"
-                                    /**
- * _isalpha - Checking character for alpha case
+
+/**
+ * _isalpha - Check for Alpha
  * @c: character to check
  *
- * Return: 1 if is Alpha else 0
+ * Return: 1 if is Alphabet else 0
  */
 
 int _isalpha(int c)
