@@ -1,6 +1,6 @@
 #include "main.h"
                                     /**
- * _islower - Checking character for alpha case
+ * _isalpha - Checking character for alpha case
  * @c: character to check
  *
  * Return: 1 if is Alpha else 0
@@ -8,7 +8,7 @@
 
 int _isalpha(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (c >= 'A' && c <= 'Z' || c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
