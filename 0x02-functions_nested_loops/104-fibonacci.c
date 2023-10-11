@@ -12,7 +12,7 @@ int main(void)
 	int b = 2;
 	int i, temp;
 
-	for (i = 0; i < 98; i++)
+	for (i = 0; i <= 98; i++)
 	{
 		if (i > 0)
 		{
